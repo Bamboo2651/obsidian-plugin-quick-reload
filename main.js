@@ -26,5 +26,8 @@ module.exports = __toCommonJS(main_exports);
 var import_obsidian = require("obsidian");
 var QuickReloadPlugin = class extends import_obsidian.Plugin {
   onload() {
+    this.addRibbonIcon("refresh-cw", "Quick Reload", () => {
+      window.location.reload();
+    });
   }
 };
