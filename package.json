@@ -1,0 +1,27 @@
+{
+  "name": "obsidian-plugin-quick-reload",
+  "version": "1.0.0",
+  "description": "ただobsidianを再起動するためだけの拡張機能",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node esbuild.config.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bamboo2651/obsidian-plugin-quick-reload.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Bamboo2651/obsidian-plugin-quick-reload/issues"
+  },
+  "homepage": "https://github.com/Bamboo2651/obsidian-plugin-quick-reload#readme",
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "obsidian": "^1.13.1",
+    "typescript": "^7.0.2"
+  }
+}
