@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/Bamboo2651/obsidian-plugin-quick-reload/issues"
   },
-  "homepage": "https://github.com/Bamboo2651/obsidian-plugin-quick-reload#readme"
+  "homepage": "https://github.com/Bamboo2651/obsidian-plugin-quick-reload#readme",
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "obsidian": "^1.13.1",
+    "typescript": "^7.0.2"
+  }
 }
