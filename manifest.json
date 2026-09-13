@@ -1,0 +1,9 @@
+{
+    "id": "quick-reload",
+    "name": "Quick Reload",
+    "version": "1.0.0",
+    "minAppVersion": "1.0.0",
+    "description": "リボンメニューに拡張機能を表示し実行すると、Obsidianを再起動する",
+    "author": "takehana",
+    "isDesktopOnly": true
+}
